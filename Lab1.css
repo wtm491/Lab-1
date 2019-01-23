@@ -1,0 +1,116 @@
+body {
+  font-family: "Open Sans";
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  align-items: center;
+  list-style-type: none;
+}
+
+
+nav li {
+  justify-content: space-between;
+}
+
+nav a{
+  padding-left: 50px;
+  padding-right: 5px;
+  /* margin-right: 10px; */
+  color: #69696a;
+  text-decoration: none;
+}
+
+.Home{
+  padding-left: 50px;
+}
+
+.logo {
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.button {
+  border-radius: 20px;
+  background-color: #000;
+  color: white;
+  margin-left: 750px;
+  font-size: 25px;
+}
+
+#Scroll {
+  text-align: center;
+  margin-top: 300px;
+}
+
+.paragraph {
+  float: left;
+  word-wrap: break-word;
+  padding-right: 900px;
+  padding-left: 40px;
+  color: #69696a;
+  /* margin-top: 500px; */
+}
+
+.chirpus {
+  padding-left: 40px;
+}
+
+.container-right {
+  float: right;
+
+}
+
+.container-left {
+  padding-top: 70px;
+}
+
+.circle-pink {
+ width: 340px;
+ height: 340px;
+ background-color: rgba(247, 136, 167, 0.6);
+ border-radius: 50%;
+ display: inline-block;
+ margin: 5px;
+ /* opacity: .5; */
+ float: right;
+ top: 200px;
+ right: 220px;
+ position: absolute;
+
+
+}
+.circle-purple {
+
+ width: 150px;
+ height: 150px;
+ background-color: rgba(207, 130, 213, 0.6);
+ border-radius: 50%;
+ display: inline-block;
+ margin: 5px;
+ /* opacity: .5; */
+ float: right;
+ position: absolute;
+ top: 200px;
+ right: 150px;
+
+}
+
+.circle-tan {
+
+ width: 200px;
+ height: 200px;
+ background-color: rgba(247, 193, 162, 0.7);
+ border-radius: 50%;
+ display: inline-block;
+ margin: 5px;
+ /* opacity: .5; */
+ float: right;
+ position: absolute;
+ top: 330px;
+ right: 130px;
+
+
+}
